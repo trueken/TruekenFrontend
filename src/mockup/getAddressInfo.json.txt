@@ -1,0 +1,307 @@
+{
+	"address": "0xde6864783ae03b85d0b5a7ab25d16c8bb5c05334",
+	"ETH": 
+	{
+		"balance": 1.02081954,
+		"totalIn": 3.94537854,
+		"totalOut": 2.924559
+	},
+
+	"countTxs": 16,
+	"tokens": 
+	[
+		{
+			"tokenInfo": 
+			{
+				"address": "0xab95e915c123fded5bdfb6325e35ef5515f1ea69",
+				"name": "XENON",
+				"decimals": 18,
+				"symbol": "XNN",
+				"totalSupply": "1000000000000000000000000000",
+				"owner": "0x",
+				"lastUpdated": 1519111509,
+				"issuancesCount": 0,
+				"holdersCount": 748279,
+				"description": "XenonNetwork (http://xenon.network/), an enterprise-scale blockchain launching in July 2018 begins a massive distribution of their native Xenon (XNN) ERC-20 compatible tokens to over 400,000 active ethereum addresses at the beginning of October. In addition to this, a similar distribution to bitcoin holders will occur in November, followed by a proof-of-individuality public token distribution from November through to June 2018.\n\nhttp://xenon.network",
+				"price": 
+				{
+					"rate": "0.0220742",
+					"diff": -43.12,
+					"diff7d": -47.02,
+					"ts": "1519112055",
+					"marketCapUsd": "6622260.0",
+					"availableSupply": "300000000.0",
+					"volume24h": "46.5737",
+					"currency": "USD"
+				}
+			},
+
+			"balance": 2.007193082245e+20,
+			"totalIn": 0,
+			"totalOut": 0
+		},
+
+		{
+			"tokenInfo": 
+			{
+				"address": "0xf04a8ac553fcedb5ba99a64799155826c136b0be",
+				"name": "Flixx",
+				"decimals": "18",
+				"symbol": "FLIXX",
+				"totalSupply": "189151328574678856483195800",
+				"owner": "0x412790a9e6a6dd5b201bfa29af8d589cb85ff20c",
+				"lastUpdated": 1519101729,
+				"issuancesCount": 0,
+				"holdersCount": 3750,
+				"price": 
+				{
+					"rate": "0.174116",
+					"diff": 9.58,
+					"diff7d": 24.34,
+					"ts": "1519112057",
+					"marketCapUsd": "12971255.0",
+					"availableSupply": "74497777.0",
+					"volume24h": "39390.0",
+					"currency": "USD"
+				}
+			},
+
+			"balance": 1.2e+21,
+			"totalIn": 0,
+			"totalOut": 0
+		},
+
+		{
+			"tokenInfo": 
+			{
+				"address": "0x52a7cb918c11a16958be40cba7e31e32a499a465",
+				"name": "fidentiaX",
+				"decimals": "18",
+				"symbol": "fdX",
+				"totalSupply": "130000000000000000000000000",
+				"owner": "0x00062be45b5415268e5c9ab0d547472cbb38a7d4",
+				"lastUpdated": 1519095479,
+				"issuancesCount": 0,
+				"holdersCount": 3873,
+				"price": 
+				{
+					"rate": "0.205659",
+					"diff": 8.87,
+					"diff7d": -7.64,
+					"ts": "1519112058",
+					"marketCapUsd": null,
+					"availableSupply": null,
+					"volume24h": "2767.04",
+					"currency": "USD"
+				}
+			},
+
+			"balance": 3.2751399040519e+21,
+			"totalIn": 0,
+			"totalOut": 0
+		},
+
+		{
+			"tokenInfo": 
+			{
+				"address": "0x519475b31653e46d20cd09f9fdcf3b12bdacb4f5",
+				"name": "VIU",
+				"decimals": "18",
+				"symbol": "VIU",
+				"totalSupply": "1000000000000000000000000000",
+				"owner": "0x",
+				"lastUpdated": 1519112816,
+				"issuancesCount": 0,
+				"holdersCount": 955618,
+				"price": 
+				{
+					"rate": "0.0231684",
+					"diff": -7.9,
+					"diff7d": -1.42,
+					"ts": "1519112056",
+					"marketCapUsd": "14435007.0",
+					"availableSupply": "623047217.0",
+					"volume24h": "1626080.0",
+					"currency": "USD"
+				}
+			},
+
+			"balance": 2.72560918e+18,
+			"totalIn": 0,
+			"totalOut": 0
+		},
+
+		{
+			"tokenInfo": 
+			{
+				"address": "0xe29c5b523590165795bbd7d52369c2895b18841f",
+				"name": "ESports Token",
+				"decimals": "18",
+				"symbol": "ERT",
+				"totalSupply": "48000000000000000000000000",
+				"owner": "0x723aaf922709819c25344b81901dd8a9c84c0b89",
+				"lastUpdated": 1509460557,
+				"issuancesCount": 0,
+				"holdersCount": 13,
+				"price": false
+			},
+
+			"balance": 6.0e+19,
+			"totalIn": 0,
+			"totalOut": 0
+		},
+
+		{
+			"tokenInfo": 
+			{
+				"address": "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
+				"name": "Basic Attention Token",
+				"decimals": "18",
+				"symbol": "BAT",
+				"totalSupply": "1500000000000000000000000000",
+				"owner": "0x",
+				"lastUpdated": 1502807553,
+				"issuancesCount": 0,
+				"holdersCount": 24206,
+				"price": 
+				{
+					"rate": "0.422264",
+					"diff": -1.66,
+					"diff7d": 18.28,
+					"ts": "1519113550",
+					"marketCapUsd": "422264000.0",
+					"availableSupply": "1000000000.0",
+					"volume24h": "5271360.0",
+					"currency": "USD"
+				}
+			},
+
+			"balance": 5.9200240209e+20,
+			"totalIn": 0,
+			"totalOut": 0
+		},
+
+		{
+			"tokenInfo": 
+			{
+				"address": "0x52903256dd18d85c2dc4a6c999907c9793ea61e3",
+				"name": "INS Promo",
+				"decimals": 0,
+				"symbol": "INSP",
+				"totalSupply": "1801086",
+				"owner": "0x",
+				"lastUpdated": 1514203156,
+				"issuancesCount": 0,
+				"holdersCount": 855607,
+				"price": false
+			},
+
+			"balance": 777,
+			"totalIn": 0,
+			"totalOut": 0
+		},
+
+		{
+			"tokenInfo": 
+			{
+				"address": "0x1961b3331969ed52770751fc718ef530838b6dee",
+				"name": "BitDegree Token",
+				"decimals": "18",
+				"symbol": "BDG",
+				"totalSupply": "660000000000000000000000000",
+				"owner": "0xe259ece17feef05bdead9689c6f1bc8e778c517b",
+				"lastUpdated": 1519113418,
+				"issuancesCount": 0,
+				"holdersCount": 20102,
+				"price": 
+				{
+					"rate": "0.0803895",
+					"diff": -3.19,
+					"diff7d": -23.7,
+					"ts": "1519112058",
+					"marketCapUsd": "28010853.0",
+					"availableSupply": "348439198.0",
+					"volume24h": "107263.0",
+					"currency": "USD"
+				}
+			},
+
+			"balance": 2.885e+21,
+			"totalIn": 0,
+			"totalOut": 0
+		},
+
+		{
+			"tokenInfo": 
+			{
+				"address": "0x3a1bda28adb5b0a812a7cf10a1950c920f79bcd3",
+				"name": "FLIP Token",
+				"decimals": "18",
+				"symbol": "FLP",
+				"totalSupply": "100000000000000000000000000",
+				"owner": "0x56c6cc96a6c118e4469889644e50e5463e458fc8",
+				"lastUpdated": 1519106227,
+				"issuancesCount": 0,
+				"holdersCount": 3882,
+				"price": false
+			},
+
+			"balance": 4.737147546e+20,
+			"totalIn": 0,
+			"totalOut": 0
+		},
+
+		{
+			"tokenInfo": 
+			{
+				"address": "0x5b2e4a700dfbc560061e957edec8f6eeeb74a320",
+				"name": "INS Token",
+				"decimals": "10",
+				"symbol": "INS",
+				"totalSupply": "500000000000000000",
+				"owner": "0x",
+				"lastUpdated": 1519113601,
+				"issuancesCount": 0,
+				"holdersCount": 18587,
+				"price": 
+				{
+					"rate": "3.01631",
+					"diff": 4.9,
+					"diff7d": 28.77,
+					"ts": "1519112058",
+					"marketCapUsd": "84759334.0",
+					"availableSupply": "28100339.0",
+					"volume24h": "23050000.0",
+					"currency": "USD"
+				}
+			},
+
+			"balance": 907918900000,
+			"totalIn": 0,
+			"totalOut": 0
+		},
+
+		{
+			"tokenInfo": 
+			{
+				"address": "0xeb9951021698b42e4399f9cbb6267aa35f82d59d",
+				"name": "Lif",
+				"decimals": "18",
+				"symbol": "",
+				"totalSupply": "20052109455456318261064245",
+				"owner": "0x9df3a24d738ae98dea766cd89c3aef16583a4daf",
+				"lastUpdated": 1517473955417,
+				"issuancesCount": 0,
+				"holdersCount": 7104,
+				"website": "https://windingtree.com",
+				"twitter": "windingtree",
+				"reddit": "windingtree",
+				"price": false
+			},
+
+			"balance": 1.2e+20,
+			"totalIn": 0,
+			"totalOut": 0
+		}
+	]
+}
