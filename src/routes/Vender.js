@@ -3,8 +3,9 @@ import Select from '../components/Select';
 import Moneda from '../components/Moneda';
 import MyAddress from '../components/MyAddress';
 import InputEthers from '../components/InputEthers';
-import mockaddinfo from '../mockup/getAddressInfo.json.txt';
-
+import {ENV} from '../config';
+//import Config from '../Config';
+//var Config = require('../Config')
 
 export default class Vender extends Component {
 	
@@ -24,7 +25,7 @@ export default class Vender extends Component {
       <SelectContrato id="contrato" name="direccion">
       </SelectContrato>
       <label>Precio (ETH)</label><br/>
-      <InputEthers/><br/>
+      <InputEthers label="ETH/ud."/><br/>
     </div>
     );
   }
@@ -37,7 +38,7 @@ class SelectContrato extends Select{
 		this.monedas = {};
 		this.state.onChange = function(event){
 			this.moneda = this.monedas[event.target.value];
-			fetch(window.appAPI + 'contract/' + event.target.value)
+			fetch(ENV.backend_api + 'contract/' + event.target.value)
 			.then((response) => response.json())
 			.then((responseJson) => {
 				this.moneda["trades"] = responseJson;
@@ -50,9 +51,9 @@ class SelectContrato extends Select{
 	}
 	
 	componentDidMount(){
-		var coinbase = '0xDE6864783AE03B85D0B5A7aB25D16C8bb5C05334';
 		//var coinbase = window.web3.eth.coinbase;
-		var url = mockaddinfo;
+		//alert(JSON.stringify(Configuracion));
+		var url = ENV.addinfo.replace(/\[address\]/g, window.web3.eth.coinbase);
 		//var url = 'https://api.ethplorer.io/getAddressInfo/' + coinbase + '?apiKey=freekey';
 		fetch(url)
 		.then((response) => response.json())
@@ -79,6 +80,9 @@ class SelectContrato extends Select{
 	}
 	
 	render(){
+		
+		
+		
 		if (typeof this.moneda!== 'undefined'){
 			return super.render(<Moneda token={this.moneda}></Moneda>);
 		}	

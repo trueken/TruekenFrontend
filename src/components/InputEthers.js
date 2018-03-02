@@ -5,6 +5,8 @@ export default class InputEthers extends React.Component {
 		super(props);
 		this.props = props;
 		this.state = {
+			label : 'ETH',
+			changeLabel: 'USD',
 			lastvalue: '',
 			number: '',
 			errors: [],
@@ -12,6 +14,14 @@ export default class InputEthers extends React.Component {
 				'text-align': "right"
 			}
 		}
+		if (this.props.label !== undefined){
+			this.state.label = this.props.label;
+		}
+		if (this.props.changeLabel !== undefined){
+			this.state.changeLabel = this.props.changeLabel;
+		}
+		
+		
 	}
 	
 	onInput(event){
@@ -42,8 +52,8 @@ export default class InputEthers extends React.Component {
 		<div class="">
 			<input type="text" style={this.state.style} name={this.props.name} value={this.state.number} 
 				onChange={this.onInput.bind(this)}
-				/*onChange="function(){}"*/></input>ETH/ud.<br/>
-			<input type="text" style={this.state.style} readonly="readonly" value={this.state.usdValue}/>USD/ud.
+				/*onChange="function(){}"*/></input>{this.state.label}<br/>
+			<input type="text" style={this.state.style} readonly="readonly" value={this.state.usdValue}/>{this.state.changeLabel}
 		</div>
 		);
 	}

@@ -3,18 +3,7 @@ import { HashRouter, Route, Switch } from 'react-router-dom';
 import Loadable from 'react-loadable';
 import './App.css';
 import Layout from "./Layout";
-import mockaddinfo from '../mockup/getAddressInfo.json.txt';
 
-const configurations = {
-	"devel" : {
-		/*local development*/
-		{
-			"addinfo": mockaddinfo,
-			"backend_api": 
-		}
-	},
-	
-}
 
 const Loading = () => <div>Loading...</div>;
 
@@ -33,6 +22,11 @@ const Vender = Loadable({
 	  loading: Loading,
 	});
 
+const Comprar = Loadable({
+	  loader: () => import('./routes/Comprar'),
+	  loading: Loading,
+	});
+
 class App extends Component {
   render() {
     return (
@@ -42,6 +36,7 @@ class App extends Component {
 		      <Route exact path="/" component={Home}/>
 		      <Route path="/about" component={About}/>
 		      <Route path="/vender" component={Vender}/>
+		      <Route path="/comprar" component={Comprar}/>
 		    </Switch>
 		  
 	  </Layout>

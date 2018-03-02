@@ -4,7 +4,6 @@ import Footer from "./components/Footer";
 import logo from './logo.svg';
 import './App.css';
 
-window.appAPI = 'http://127.0.0.1:8000/api/';
 
 export default class Layout extends React.Component {
 	componentDidMount(){
@@ -30,13 +29,22 @@ export default class Layout extends React.Component {
 	}
 
 	render() {
-		
+		window.account = window.web3.eth.coinbase;
+		var classRef = this;
+		setInterval(function() {
+		  if (window.web3.eth.coinbase !== window.account) {
+		    window.account = window.web3.eth.coinbase;
+		    //recargamos todo
+		    classRef.forceUpdate();
+		  }
+		}, 100);
 		return (
 			<div className="App">
 			    <Link to="/">home</Link>
 			    <Link to="/about">about</Link>
 			    <Link to="/vender">vender</Link>
-				
+			    <Link to="/comprar">comprar</Link>
+				<div>{window.web3.eth.coinbase}</div>
 		        <header className="App-header">
 		          <img src={logo} className="App-logo" alt="logo" />
 		          <h1 className="App-title">Bienvenido a trueken_ReactJS (Home)</h1>
